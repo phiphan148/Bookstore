@@ -1,21 +1,21 @@
 <template>
-    <!--<div>-->
-        <!--<transition name="modal">-->
-            <!--<div class="modal-mask">-->
-                <!--<div class="modal-wrapper">-->
-                    <!--<div class="modal-container">-->
-                        <!--<div class="modal-header">-->
-                            <!--<slot name="header">-->
-                            <!--</slot>-->
-                        <!--</div>-->
-                        <!--<button class="modal-default-button" @click="$emit('close')">-->
-                            <!--OK-->
-                        <!--</button>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</transition>-->
-    <!--</div>-->
+    <div>
+        <transition name="modal">
+            <div class="modal-mask">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
+                        <div class="modal-header">
+                            <slot name="header">
+                            </slot>
+                        </div>
+                        <button class="modal-default-button" @click="$emit('close')">
+                            OK
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    </div>
 </template>
 
 <script>

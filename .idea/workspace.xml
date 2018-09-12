@@ -100,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/bookstore/src/components/modal.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="14" />
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -247,12 +247,12 @@
       <workItem from="1536675628538" duration="21420000" />
       <workItem from="1536703976977" duration="199000" />
       <workItem from="1536738382161" duration="7518000" />
-      <workItem from="1536757098154" duration="11032000" />
+      <workItem from="1536757098154" duration="11074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40643000" />
+    <option name="totallyTimeSpent" value="40685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="43" width="1260" height="733" extended-state="0" />
@@ -367,7 +367,7 @@
     <entry file="file://$PROJECT_DIR$/bookstore/src/components/modal.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="14" />
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
