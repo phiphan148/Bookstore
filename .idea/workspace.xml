@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5514731-cd3f-4c6d-a911-44d44e071788" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bookstore/src/components/modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/src/components/modal.vue" afterDir="false" />
-    </list>
+    <list default="true" id="b5514731-cd3f-4c6d-a911-44d44e071788" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <path value="$PROJECT_DIR$/bookstore/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="14" />
     <option name="y" value="43" />
     <option name="width" value="1260" />
@@ -192,18 +190,6 @@
               <item name="Bookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
               <item name="bookstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,16 +233,15 @@
       <workItem from="1536675628538" duration="21420000" />
       <workItem from="1536703976977" duration="199000" />
       <workItem from="1536738382161" duration="7518000" />
-      <workItem from="1536757098154" duration="11074000" />
+      <workItem from="1536757098154" duration="11411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40685000" />
+    <option name="totallyTimeSpent" value="41022000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="43" width="1260" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="14" y="43" width="1260" height="733" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26600984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
