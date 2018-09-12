@@ -20,7 +20,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="info-card" v-for="item in searchData">
+                <div class="info-card" v-for="(item, index) in searchData" :key=index>
                     <div class="front">
                         <img class="card-image" :src="item.cover" alt="cover">
                     </div>
@@ -29,12 +29,12 @@
                         <div><span class="font-weight-bold">Description: </span>{{item.description}}</div>
                         <div><span class="font-weight-bold">Language: </span>{{item.language}}</div>
                         <div class="text-center mt-2">
-                            <button id="show-modal" @click="showModal = true" class="font-weight-bold">Details</button>
+                            <button id="show-modal" @click="modalPop(item)" class="font-weight-bold">Details</button>
                         </div>
                     </div>
                     <modal v-if="showModal" @close="showModal = false">
                         <h3 slot="header">
-                            <img class="card-image" :src="item.detail" alt="cover">
+                            <img class="card-image" :src="modalDetail" alt="cover">
                         </h3>
                     </modal>
                 </div>
@@ -71,6 +71,12 @@
                 return this.bookdata.filter(book => book.title.toLowerCase().includes(this.searchBook.toLowerCase()) || book.description.toLowerCase().includes(this.searchBook.toLowerCase()) || book.language.toLowerCase().includes(this.searchBook.toLowerCase()))
             }
         },
+        methods: {
+            modalPop (item) {
+                this.showModal = true;
+                this.modalDetail = item.detail;
+            }
+        }
     };
 </script>
 
