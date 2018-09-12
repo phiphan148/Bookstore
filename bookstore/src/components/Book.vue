@@ -34,7 +34,7 @@
                     </div>
                     <modal v-if="showModal" @close="showModal = false">
                         <h3 slot="header">
-                            <img class="card-image" :src="this.item.detail" alt="cover">
+                            <img class="card-image" :src="item.detail" alt="cover">
                         </h3>
                     </modal>
                 </div>

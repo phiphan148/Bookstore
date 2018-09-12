@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5514731-cd3f-4c6d-a911-44d44e071788" name="Default Changelist" comment="" />
+    <list default="true" id="b5514731-cd3f-4c6d-a911-44d44e071788" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/src/components/Book.vue" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/src/components/Book.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bookstore/src/components/Book.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1852">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="310">
+              <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
               <folding>
                 <element signature="e#2429#2461#0" expanded="true" />
               </folding>
@@ -94,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookstore/src/components/modal.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -139,8 +143,8 @@
         <option value="$PROJECT_DIR$/bookstore/public/index.html" />
         <option value="$PROJECT_DIR$/bookstore/src/store.js" />
         <option value="$PROJECT_DIR$/bookstore/src/App.vue" />
-        <option value="$PROJECT_DIR$/bookstore/src/components/Book.vue" />
         <option value="$PROJECT_DIR$/bookstore/src/components/modal.vue" />
+        <option value="$PROJECT_DIR$/bookstore/src/components/Book.vue" />
       </list>
     </option>
   </component>
@@ -164,7 +168,7 @@
       <path value="$PROJECT_DIR$/bookstore/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="14" />
     <option name="y" value="43" />
     <option name="width" value="1260" />
@@ -205,7 +209,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,15 +237,15 @@
       <workItem from="1536675628538" duration="21420000" />
       <workItem from="1536703976977" duration="199000" />
       <workItem from="1536738382161" duration="7518000" />
-      <workItem from="1536757098154" duration="11411000" />
+      <workItem from="1536757098154" duration="11885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41022000" />
+    <option name="totallyTimeSpent" value="41496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="43" width="1260" height="733" extended-state="1" />
+    <frame x="14" y="43" width="1260" height="733" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26600984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,6 +336,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/src/components/modal.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bookstore/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -341,18 +352,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bookstore/src/components/Book.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1852">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="310">
+          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
           <folding>
             <element signature="e#2429#2461#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bookstore/src/components/modal.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
