@@ -20,6 +20,9 @@
         </div>
         <div class="container">
             <div class="row">
+                <div v-if="searchData.length == 0">
+                    Sorry, we don't have any book match what you are looking
+                </div>
                 <div class="info-card" v-for="(item, index) in searchData" :key=index>
                     <div class="front">
                         <img class="card-image" :src="item.cover" alt="cover">
@@ -58,6 +61,8 @@
             return {
                 searchBook: '',
                 showModal: false,
+                emptyPage: false,
+                tempt: [],
             }
         },
         beforeCreate() {
@@ -71,13 +76,13 @@
                 return this.bookdata.filter(book => book.title.toLowerCase().includes(this.searchBook.toLowerCase()) || book.description.toLowerCase().includes(this.searchBook.toLowerCase()) || book.language.toLowerCase().includes(this.searchBook.toLowerCase()))
             }
         },
-        methods: {
-            modalPop (item) {
-                this.showModal = true;
-                this.modalDetail = item.detail;
+            methods: {
+                modalPop(item) {
+                    this.showModal = true;
+                    this.modalDetail = item.detail;
+                },
             }
         }
-    };
 </script>
 
 <style scoped>
